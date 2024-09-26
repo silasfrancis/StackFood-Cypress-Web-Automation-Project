@@ -23,7 +23,6 @@ describe('Food Module', ()=>{
         food.Time('12:00', '22:00')
         food.PriceInfo(10, 2, 50)
         food.StockType('Daily Stock')
-        cy.wait(3000)
         food.ItemStock(400)
         food.Tags('#burgers')
         food.Submit()
