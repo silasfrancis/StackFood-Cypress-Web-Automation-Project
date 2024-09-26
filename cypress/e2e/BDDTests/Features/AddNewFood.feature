@@ -2,7 +2,7 @@ Feature: Add New Food
 
     Background: Logging in
         When User opens url "https://stackfood-admin.6amtech.com/login/restaurant"
-        # And Inputs username "<email>" and password "<password>"
+        #And Inputs username "<email>" and password "<password>"
         And Inputs username "test.restaurant@gmail.com" and password "12345678"
         And User proceed to Login, user must pass the captcha
         Then User should click Login button 
